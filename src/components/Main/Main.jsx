@@ -13,7 +13,7 @@ const Main = () => {
             <p>
                 Wisdom Ai
             </p>
-            <img src={assets.user_icon} alt="" />
+            <img src={assets.me_icon} alt="" />
         </div>
       <div className="main-container">
         {!showResult 
@@ -46,7 +46,7 @@ const Main = () => {
             
             : <div className='result'>  
             <div className="result-title">
-                <img src={assets.user_icon} alt="" />
+                <img src={assets.me_icon} alt="" />
                 <p>
                     {recentPrompt}
                 </p>
